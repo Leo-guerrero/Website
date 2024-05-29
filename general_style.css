@@ -1,0 +1,353 @@
+@font-face {
+    font-family: lightsizefont;
+    src: url(Barlow-ExtraLight.ttf);
+  }
+
+@font-face {
+    font-family: mediumsizefont;
+    src: url(Barlow-Medium.ttf);
+}
+
+@font-face {
+    font-family: semiboldfont;
+    src: url(Barlow-SemiBold.ttf);
+}
+
+@keyframes slider{
+    from{
+        transform: translateY(120px);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+
+@keyframes sliderX{
+    from{
+        transform: translateX(6000px);
+    }
+    to{
+        transform:translateX(100px);
+    }
+}
+
+
+#tital_pic{
+
+    
+    display: block;
+    margin-left: -8px;
+    margin-right: auto;
+
+    width: 1902px;
+    
+    
+    margin-top: -8px;
+
+    
+    
+}
+
+#mypic{
+
+    position:relative;
+    border: 3px solid;
+    border-color: rgb(255, 255, 255);
+
+    z-index: 10;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    
+    
+    
+
+    margin-top: -76px;
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+#maintab{
+    word-spacing: 200px;
+    font-family: lightsizefont;
+    font-weight: normal;
+}
+
+.main{
+    background-color: rgb(255, 255, 255);
+    border:none;
+    
+
+    margin-left: 267px;
+    transition-duration: 0.4s;
+
+    font-family: lightsizefont;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.main:hover{
+    background-color: rgb(199, 238, 238); 
+    color: rgb(184, 184, 184);
+}
+
+#buttonlayout{
+    background-color: white;
+    margin-top: -50px;
+    position: sticky;
+    top: 0;
+
+    width:1905px;
+    margin-left: -10px;
+
+    z-index: 2;
+
+}
+
+#main_text_box{
+
+
+    /*background-color: rgb(255, 255, 255);*/
+    width: 1350px;
+    height: 3000px;
+    margin-top: 20px;
+    border-radius: 8px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 15px;
+    padding-left: 25px;
+}
+
+#myname{
+    font-family: semiboldfont;
+    font-weight: normal;
+    text-align: center;
+    font-size: 40px;
+}
+
+h4{
+    text-align: center;
+    font-family: lightsizefont;
+    font-weight: normal;
+}
+
+h1{
+    font-family: mediumsizefont;
+    font-weight: normal;
+
+}
+
+.behind_ed{
+    
+    background-color: rgb(238, 238, 238);
+    padding: 100px;
+
+    animation-name: slider;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+.maybe{
+    animation-name: slider;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+#behind{
+    transition-duration: 0.4s;
+
+    
+    background-image: url(giphy.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+    color: white;
+
+    background-attachment:fixed;
+    padding: 200px;
+
+    animation-name: slider;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+
+#supertest{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: rgba(0, 0, 0, 0.91);
+    width:500px;
+    padding: 12px;
+    
+    
+}
+#bruh{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: rgba(0, 0, 0, 0.91);
+    width:500px;
+    margin-top: -22px;
+    
+
+    
+}
+
+
+p{
+    font-family: lightsizefont;
+    font-size: large;
+    word-spacing: 5px;
+    /*background-color: rgb(255, 255, 255);*/
+    width:750px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 12px;
+    line-height: 1.8;
+
+
+    z-index: 1;
+
+    animation-name: slider;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+.noshadow{
+    box-shadow: none;
+}
+
+#mama{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 150px;
+
+    animation-name: slider;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+
+#st_eds{
+    transition-duration: 0.4s;
+    background-color: white;
+}
+
+a:any-link{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+}
+
+#st_eds:hover{
+    background-color: rgb(32, 94, 187);
+    color: rgb(223, 206, 60);
+}
+
+#sja{
+    transition-duration: 0.4s;
+    background-color: white;
+}
+#sja:hover{
+    background-color: rgb(102, 20, 20); 
+    color: rgb(224, 219, 219);
+}
+
+
+#projects {
+    border-spacing: 150px;
+    margin-left: -65px;
+    margin-top: -110px;
+  }
+
+#Permafrost{
+    width:210px;
+    background-color: rgb(36, 36, 36); 
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+}
+
+#Permafrost:hover{
+    background-color: rgb(136, 220, 235); 
+    color: rgb(255, 255, 255);
+}
+
+#oldwebsite{
+    width:210px;
+    background-color: rgb(36, 36, 36); 
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+}
+
+#oldwebsite:hover{
+    background-color: rgb(255, 149, 228); 
+    color: rgb(20, 20, 20);
+}
+
+#gamejoltpic{
+    width:234px;
+    margin-top: -20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#oldwebpic{
+    width:234px;
+    height: 155px;
+    margin-top: -20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#github{
+    width:210px;
+    background-color: rgb(36, 36, 36); 
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+}
+
+#github:hover{
+    background-color: rgb(96, 252, 143); 
+    color: rgb(20, 20, 20);
+}
+
+#githubpic{
+    width:234px;
+    height: 155px;
+    margin-top: -20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+#skills{
+    margin-top: -100px;
+    text-align: left;
+    font-weight: normal;
+    border-spacing: -20px;
+
+}
+
+
+#bruh2pic{
+    height:400px;
+    animation-name: slider;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    
+
+
+}
+
+
+
+
+
+
